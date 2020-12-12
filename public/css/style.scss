@@ -1,0 +1,54 @@
+$back_color: #1b1b1b;
+$text_color: #ACA9D0;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+
+body, html, .bg {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg { 
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg") !important;
+
+  background-position:  center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name {
+  color: $back_color;
+  font-size:70px;
+  font-weight: bold;
+}
+
+.links {
+  color: $back_color;
+  font-size:30px;
+  display:block;
+}
+
+.links:hover,.go_back_text:hover,.go_home_link:hover {
+  color: #ffed4a;
+}
+
+.hat {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.buttonmus {margin-top:8px;width:64px; height:64px; background: transparent url('/img/mus.png') 0% 0% no-repeat padding-box; background-size:64px 64px;border:0px;}
+
+.go_back_text {
+  color: $back_color;
+  font-size:40px;
+  font-weight: bold;
+  text-align: right;
+  margin-top:20px;
+}
+
+.go_home_link {
+  font-size:20px;
+  font-weight: bold;
+  text-align: right;
+}
